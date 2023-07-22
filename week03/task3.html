@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 03 | Sample Solution</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="../week02/task2.html">Lesson 2</a></li>
+            <li><a href="task3.html" class="active">Lesson 3</a></li>
+            <li><a href="../week04/task4.html">Lesson 4</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Functions</h1>
+    </header>
+    <main>
+        <section id="functions">
+            <article>
+                <h2>Addition</h2>
+                <div>
+                    <label for="addend1">Number 1:</label>
+                    <input type="text" id="addend1" name="addend1">
+                </div>
+                <div>
+                    <label for="addend2">Number 2:</label>
+                    <input type="text" id="addend2" name="addend2">
+                </div>
+                <div>
+                    <input type="button" id="addNumbers" value="Add Numbers">
+                </div>
+                <div>
+                    <label for="sum">Sum:</label>
+                    <input type="text" id="sum" name="sum" disabled>
+                </div>
+            </article>
+            <article>
+                <h2>Subtraction</h2>
+                <div>
+                    <label for="minuend">Number 1:</label>
+                    <input type="text" id="minuend" name="minuend">
+                </div>
+                <div>
+                    <label for="subtrahend">Number 2:</label>
+                    <input type="text" id="subtrahend" name="subtrahend">
+                </div>
+                <div>
+                    <input type="button" id="subtractNumbers" value="Subtract Numbers">
+                </div>
+                <div>
+                    <label for="difference">Difference:</label>
+                    <input type="text" id="difference" name="difference" disabled>
+                </div>
+            </article>
+            <article>
+                <h2>Multiplication</h2>
+                <div>
+                    <label for="factor1">Number 1:</label>
+                    <input type="text" id="factor1" name="factor1">
+                </div>
+                <div>
+                    <label for="factor2">Number 2:</label>
+                    <input type="text" id="factor2" name="factor2">
+                </div>
+                <div>
+                    <input type="button" id="multiplyNumbers" value="Multiply Numbers">
+                </div>
+                <div>
+                    <label for="product">Product:</label>
+                    <input type="text" id="product" name="product" disabled>
+                </div>
+            </article>
+            <article>
+                <h2>Division</h2>
+                <div>
+                    <label for="dividend">Number 1:</label>
+                    <input type="text" id="dividend" name="dividend">
+                </div>
+                <div>
+                    <label for="divisor">Number 2:</label>
+                    <input type="text" id="divisor" name="divisor">
+                </div>
+                <div>
+                    <input type="button" id="divideNumbers" value="Divide Numbers">
+                </div>
+                <div>
+                    <label for="quotient">Quotient:</label>
+                    <input type="text" id="quotient" name="quotient" disabled>
+                </div>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h2>Array Methods</h2>
+            <p>
+                Source Array: <span id="array"></span>
+            </p>
+            <p>
+                Odd Numbers: <span id="odds"></span>
+            </p>
+            <p>
+                Even Numbers: <span id="evens"></span>
+            </p>
+            <p>
+                Sum of Source Array: <span id="sumOfArray"></span>
+            </p>
+            <p>
+                Source Array Times Two: <span id="multiplied"></span>
+            </p>
+            <p>
+                Sum of Source Array Times Two: <span id="sumOfMultiplied"></span>
+            </p>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Functions | Lesson 3
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task3.js"></script>
+</body>
+
+</html>

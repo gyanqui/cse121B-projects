@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSE 121b: Week 04 | Sample Solution</title>
+	<link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="../week02/task2.html">Lesson 2</a></li>
+            <li><a href="../week03/task3.html">Lesson 3</a></li>
+            <li><a href="task4.html" class="active">Lesson 4</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Biography Revisited</h1>
+        <img id="photo" src="/images/placeholder.png" alt="Gabriel photo">
+    </header>
+    <main>
+        <section>
+            <div>
+                <label>Name:</label>
+                <span id="name"></span>
+            </div>
+            <div>
+                <label>Favorite Foods:</label>
+                <ul id="favorite-foods"></ul>
+            </div>
+            <div>
+                <label>Hobbies:</label>
+                <ul id="hobbies"></ul>
+            </div>
+            <div>
+                <label>Places Lived:</label>
+                <dl id="places-lived"></dl>
+            </div>
+        </section>
+    </main>
+	<footer>
+        &copy;<span id="year"></span> | Biography Revisited | Lesson 4
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task4.js"></script>
+</body>
+
+</html>
+
+myInfo.placesLived.push({ place: "Cusco - Peru", length: "3" });
+myInfo.placesLived.push({ place: "Lima - Peru", length: "15" });
+myInfo.placesLived.push({ place: "Quito - Ecuador", length: "2" });
+myInfo.placesLived.push({ place: "Lima - Peru", length: "3" });

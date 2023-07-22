@@ -1,0 +1,13 @@
+
+Project Description:
+The project idea is to create a workout logging app that allows users to track and log their workouts. The app will provide a user-friendly interface for adding and displaying workout logs, and it will utilize localStorage for data storage.
+
+
+Addressing Project Requirements
+
+
+Objects: The project will use objects to represent each log entry in the form of key-value pairs. Each log will have properties such as "activity" and "duration" to store the relevant information.
+
+Array Functions: Array functions will be utilized to work with the list of logs. The "getLogs()" function will retrieve the logs from localStorage and return them as an array. The "forEach()" method will be used to iterate over the array of logs when displaying them on the page.
+
+localStorage: The project will store the logs using the localStorage API. The logs will be saved as a JSON string in the localStorage, using the "setItem()" method to store the data and the "getItem()" method to retrieve the data.

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Logging App</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header>
+    <h1>Workout Logging App</h1>
+  </header>
+
+  <div class="container">
+    <form id="logForm">
+      <label for="activity">Activity:</label>
+      <input type="text" id="activity" required>
+
+      <label for="duration">Duration (minutes):</label>
+      <input type="number" id="duration" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+
+      <button type="submit">Add Log</button>
+    </form>
+
+    <ul id="logList"></ul>
+
+    <div id="statsContainer">
+      <h2>Statistics</h2>
+      <div id="totalDuration">Total Duration: 0 minutes</div>
+      <div id="averageDuration">Average Duration: 0 minutes</div>
+      <div id="longestDuration">Longest Duration: None</div>
+      <div id="shortestDuration">Shortest Duration: None</div>
+    </div>
+  </div>
+
+  <footer>
+    &copy;<span id="year"></span> | Biography | Final Project
+</footer>
+<script src="scripts/main.js"></script>
+</body>
+
+</html>
